@@ -1,0 +1,62 @@
+.header-home {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+    opacity: 50%;
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 32px;
+
+        li {
+            ion-icon {
+                font-size: 24px;
+                color: white;
+            }
+        }
+    }
+}
+
+.first-section {
+    padding: 60px 100px 0px;
+    height: 100vh;
+
+    .background-home {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../src/assets/background-home.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    .first-section-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 80vh;
+
+        h1 {
+            font-family: "Abril Fatface", serif;
+            font-size: 48px;
+            color: white;
+            position: relative;
+            z-index: 100;
+        }
+
+        p {
+            display: flex;
+            font-size: 24px;
+            color: white;
+            position: relative;
+            z-index: 100;
+        }
+    }
+}

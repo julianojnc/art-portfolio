@@ -1,0 +1,75 @@
+footer {
+    background-image: url(../src/assets/background-footer.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    z-index: 100;
+    height: 371px;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 52px 162px;
+
+        .footer-content-text-icons {
+            display: flex;
+            flex-direction: column;
+            gap: 72px;
+
+            .footer-content-text {
+                h2 {
+                    font-family: "Abril Fatface", serif;
+                    font-size: 48px;
+                    color: white;
+                }
+
+                p {
+                    padding-top: 15px;
+                    font-size: 24px;
+                    color: #ABD2FB;
+                    font-weight: 300;
+                }
+            }
+
+            ul {
+                display: flex;
+                gap: 32px;
+                list-style: none;
+                font-size: 24px;
+                padding-bottom: 20px;
+
+                li {
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .powered {
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+
+
+        p {
+            margin-top: 10px;
+            font-size: 24px;
+            color: rgba(10, 21, 66, 0.70);
+            font-weight: 400;
+            
+        }
+
+        a {
+            font-size: 16px;
+            text-decoration: none;
+            color: rgba(10, 21, 66, 0.70);
+            flex-direction: column;
+            margin-top: auto;
+        }
+    }
+}
