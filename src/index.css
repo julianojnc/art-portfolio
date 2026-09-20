@@ -68,7 +68,7 @@
 .third-section {
     padding: 112px 140px;
     background-color: transparent;
-    background-image: url('../../../public/assets/backgroundSecond.webp');
+    background-image: url('../src/assets/backgroundSecond.webp');
     background-size: cover;
     background-position: center;
     position: relative;
