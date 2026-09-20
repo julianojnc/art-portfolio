@@ -10,6 +10,11 @@ import { useGSAP } from '@gsap/react';
 import Footer from './component/footer/Footer';
 import Banner from './component/banner/Banner';
 
+// Imports Images
+import firstCardImg from './assets/firstCard.webp'
+import secondCardImg from './assets/secondCard.webp'
+import thirdCardImg from './assets/thirdCard.webp'
+
 // Scrool Smoother
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -39,22 +44,22 @@ function App() {
                         <div className="second-section-content">
                             <div className="second-section-content-cards">
                                 <div className="card">
-                                    <img src="../src/assets/secondCard.webp" alt="Imagem da Arte" />
+                                    <img src={secondCardImg} alt="Imagem da Arte" />
                                     <p>Nome da Arte - 2024</p>
                                 </div>
 
                                 <div className="card">
-                                    <img src="../src/assets/thirdCard.webp" alt="Imagem da Arte" />
+                                    <img src={thirdCardImg} alt="Imagem da Arte" />
                                     <p>Nome da Arte - 2025</p>
                                 </div>
 
                                 <div className="card">
-                                    <img src="../src/assets/firstCard.webp" alt="Imagem da Arte" />
+                                    <img src={firstCardImg} alt="Imagem da Arte" />
                                     <p>Nome da Arte - 2026</p>
                                 </div>
 
                                  <div className="card">
-                                    <img src="../src/assets/firstCard.webp" alt="Imagem da Arte" />
+                                    <img src={firstCardImg} alt="Imagem da Arte" />
                                     <p>Nome da Arte - 2026</p>
                                 </div>
                             </div>
