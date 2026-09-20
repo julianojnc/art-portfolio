@@ -11,9 +11,9 @@ import Footer from './component/footer/Footer';
 import Banner from './component/banner/Banner';
 
 // Imports Images
-import firstCardImg from './assets/firstCard.webp'
-import secondCardImg from './assets/secondCard.webp'
-import thirdCardImg from './assets/thirdCard.webp'
+import firstCardImg from '../public/assets/firstCard.webp'
+import secondCardImg from '../public/assets/secondCard.webp'
+import thirdCardImg from '../public/assets/thirdCard.webp'
 
 // Scrool Smoother
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
