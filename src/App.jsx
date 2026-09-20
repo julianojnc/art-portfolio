@@ -39,22 +39,22 @@ function App() {
                         <div className="second-section-content">
                             <div className="second-section-content-cards">
                                 <div className="card">
-                                    <img src="../src/assets/card2.webp" alt="Imagem da Arte" />
+                                    <img src="../src/assets/secondCard.webp" alt="Imagem da Arte" />
                                     <p>Nome da Arte - 2024</p>
                                 </div>
 
                                 <div className="card">
-                                    <img src="../src/assets/card1.webp" alt="Imagem da Arte" />
+                                    <img src="../src/assets/thirdCard.webp" alt="Imagem da Arte" />
                                     <p>Nome da Arte - 2025</p>
                                 </div>
 
                                 <div className="card">
-                                    <img src="../src/assets/card.webp" alt="Imagem da Arte" />
+                                    <img src="../src/assets/firstCard.webp" alt="Imagem da Arte" />
                                     <p>Nome da Arte - 2026</p>
                                 </div>
 
                                  <div className="card">
-                                    <img src="../src/assets/card.webp" alt="Imagem da Arte" />
+                                    <img src="../src/assets/firstCard.webp" alt="Imagem da Arte" />
                                     <p>Nome da Arte - 2026</p>
                                 </div>
                             </div>
