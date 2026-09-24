@@ -103,7 +103,7 @@ function App() {
 
                     <section className="third-section">
 
-                        <img className="hidden-background-img" src="../src/assets/backgroundSecond.webp" alt="Hidden Background" />
+                        <img className="hidden-background-img" src="../../public/assets/backgroundSecond.webp" alt="Hidden Background" />
 
                         <div className="third-section-content">
 
