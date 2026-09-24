@@ -10,16 +10,6 @@
     src: url(../public/fonte//Klemer\ Display\ DEMO.ttf);
 }
 
-/* .background-img {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: 1;
-} */
-
 .second-section {
     padding: 64px 140px;
     background-color: white;
@@ -37,7 +27,7 @@
         .second-section-content-cards {
             display: flex;
             justify-content: center;
-            
+
             gap: 72px;
             margin: 60px 0;
 
@@ -66,45 +56,52 @@
 }
 
 .third-section {
-    padding: 112px 140px;
-    background-color: transparent;
-    background-image: url('../src/assets/backgroundSecond.webp');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    z-index: 100;
+
+    .hidden-background-img {
+        position: absolute;
+        width: 130vw;
+        height: 130vh;
+        object-fit: cover;
+        z-index: 1;
+    }
 
     .third-section-content {
-        .third-section-content-text {
+        padding: 112px 140px;
+        position: relative;
+        z-index: 100;
 
-            h2 {
-                font-family: "Abril Fatface", serif;
-                font-size: 36px;
-                color: #ABD2FB;
-                text-align: center;
-            }
-
-            p {
-                margin: 92px 0;
-                font-size: 24px;
-                font-weight: 300;
-                color: #ABD2FB;
-                text-align: center;
-
-                a {
+        .third-section-content-container {
+            .third-section-content-text {
+                h2 {
+                    font-family: "Abril Fatface", serif;
+                    font-size: 36px;
                     color: #ABD2FB;
-                    text-decoration: none;
-                    font-weight: bold;
+                    text-align: center;
+                }
+
+                p {
+                    margin: 92px 0;
+                    font-size: 24px;
+                    font-weight: 300;
+                    color: #ABD2FB;
+                    text-align: center;
+
+                    a {
+                        color: #ABD2FB;
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
                 }
             }
         }
+
+        .see-more {
+            text-align: center;
+            color: #ABD2FB;
+            font-size: 24px;
+        }
     }
 
-    .see-more {
-        text-align: center;
-        color: #ABD2FB;
-        font-size: 24px;
-    }
 }
 
 .fourth-section {
@@ -119,7 +116,7 @@
             color: #0A1542;
             text-align: center;
 
-            h2{
+            h2 {
                 padding-bottom: 125px;
                 font-family: "Abril Fatface", serif;
                 font-size: 32px;
