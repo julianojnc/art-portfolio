@@ -11,6 +11,7 @@ import Footer from './component/footer/Footer';
 import Banner from './component/banner/Banner';
 
 // Imports Images
+import secondbackground from '../public/assets/backgroundSecond.webp'
 import firstCardImg from '../public/assets/firstCard.webp'
 import secondCardImg from '../public/assets/secondCard.webp'
 import thirdCardImg from '../public/assets/thirdCard.webp'
@@ -103,7 +104,7 @@ function App() {
 
                     <section className="third-section">
 
-                        <img className="hidden-background-img" src='../src/assets/backgroundSecond.webp' alt="Hidden Background" />
+                        <img className="hidden-background-img" src={secondbackground} alt="Hidden Background" />
 
                         <div className="third-section-content">
 
